@@ -1,7 +1,7 @@
 /*************************************************************
  This is the code for the project called
 
- Internt,W/O Internet & Manual Home Automation project using Blynk IOT Platform
+ Internt, W/O Internet & Manual Home Automation project using Blynk IOT Platform
  Here is the full tutorial video of this project 
  https://youtu.be/dHuqD-EaL-U
 
@@ -287,7 +287,7 @@ void loop()
   }
   else
   {
-    if (DEBUG_SW) Serial.println(" Connected");
+    if (DEBUG_SW) Serial.println("Connected");
     Blynk.run();
   }
 
